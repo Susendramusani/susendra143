@@ -1,8 +1,28 @@
-# Time-Series-Analysis
+# Time Series Analysis on Store Item Demand Forecasting
 
-Midterm and final project for DSCI 6002, Introduction to Data Science, as of October 18th.
+### **Objective:** Predict 4 months of item sales at different stores
+                                               
 
-Hello, Dr. Sula! We hope you've enjoyed following along with this endeavor thus far. Our objective is to assess time-series analysis.
+The dataset is provided with 4 columns:       
+**date:** The date of sale    
+**store:** This is the store number     
+**item:** This is the item number       
+**sales:** Sales made on that particular day  
 
-You can find the following in this repository: 
-- Our most recent slides
+### Approach:
+- Visualise the Time series
+- **Decomposing** into trend, seasonal, cyclical and noise components
+- Analyze the **seasonality** of a Time Series: additive and multiplicative.
+- Check **stationarity** of data - **Moving Mean, ADCF Test(Augmented Dickey–Fuller test)**
+- Stationarize Time series - first **differencing**
+- Plot **ACF/PACF** charts and find optimal parameters
+- Build Time series models according to data - **AR, MA, ARIMA, SARIMA**
+- Plot Residual distribution
+- Make predictions
+- **MAPE,SMAPE** as evaluation metric
+
+### References:
+- https://towardsdatascience.com/what-is-time-series-decomposition-and-how-does-it-work-9b67e007ae90
+- https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/
+- http://www.seanabu.com/2016/03/22/time-series-seasonal-ARIMA-model-in-python/
+
