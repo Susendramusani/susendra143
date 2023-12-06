@@ -20,6 +20,7 @@ The dataset is provided with 4 columns:
 - Plot Residual distribution
 - Make predictions
 - **MAPE,SMAPE** as evaluation metric
+- Gradio is used in deployment
 
 ### References:
 - https://towardsdatascience.com/what-is-time-series-decomposition-and-how-does-it-work-9b67e007ae90
